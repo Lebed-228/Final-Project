@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="enter.css">
+    <title>Вход/Регистрация</title>
+</head>
+<body>
+
+    <script>
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirm-password').value;
+    const messageElement = document.getElementById('message');
+
+    if (password !== confirmPassword) {
+        messageElement.textContent = 'Пароли не совпадают!';
+    } else {
+        messageElement.textContent = 'Регистрация успешна!';
+    }
+});
+    </script>
+    
+    <div class="header">
+        <img src="logo.svg">
+
+        <div class="nav">
+            <a href="#">Главная</a>
+            <a href="#">Тарифы</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="reg">
+            <a href="#">Зарегестрироваться</a>
+            <p>|</p>
+            <button class="button2">Войти</button>
+        </div>
+    </div>
+
+    <div class="burger">
+        <a href="#" <div class="burg"><img src="burg.png" alt="enetr"></div></a>
+    </div>
+
+    <div class="ofor">
+        <p>Для оформления подписки на тариф, необходимо авторизоваться.</p>
+        <img src="suka.png" alt="ключ">
+    </div>
+    <div class="zamok"><img src="close.png" alt="ne vazhno"> </div>
+    <div class="registred">
+
+        <div class="upSection">
+            <p>Войти</p>
+            <div class="e1"></div>
+            <span>Зарегестрироваться</span>
+            <div class="e2"></div>
+        </div>
+
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="username">Логин или номер телефона:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button class="ent" type="submit">Войти</button>
+        </form>
+        
+        <div class="regA"><a href="#">Восстановить пароль</a></div>
+
+        <div class="enterIn">
+            <p>Войти через:</p>
+            <img src="xuita.png" alt="zxc">
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="logo foot.png" alt="logotip">
+        <div class="dopInfo">
+            <p>г. Москва, Цветной б-р, 40</p>
+            <p>+7 495 771 21 11</p>
+            <p>info@skan.ru</p>
+            <p>Copyright. 2022</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,418 @@
+.inter-<uniquifier> {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+@media screen and (min-width: 721px){
+    .burger{
+        display: none;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .header {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .header img {
+        width: 141px;
+        height: 141px;
+        margin-top: -24px;
+        margin-left: 60px;
+    }
+
+    .nav {
+        position: absolute;
+        display: inline-block;
+        height: 17px;
+        top: 6%;
+        margin-left: 27%;
+    }
+
+    .nav a{
+        font-family: Inter;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+        padding: 0 50px 0 0;
+    }
+
+    .zamok {
+        position: absolute;
+        margin-top: -32%;
+        margin-left: 59%;
+    }
+
+    .reg {
+        display: flex;
+        height: 1%;
+        margin-left: 85%;
+        margin-top: -4%;
+    }
+    .reg p{
+        margin-left: 8%;
+        font-weight: 600;
+        margin-top: 0%;
+        position: absolute;
+        color: #029491;
+        background-color: #029491;
+    }
+
+    .button2 {
+        margin-left: 13%;
+        height: 15%;
+        width: 18%;
+        margin-top: -6px;
+        background: #7CE3E1;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .reg a{
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #000000;
+        opacity: 0.5;
+    }
+
+    .ofor {
+        display: inline-block;
+        width: 45%;
+        margin-left: 60px;
+        margin-top: 5%;
+    }
+
+    .ofor p{
+        font-weight: 900;
+        font-family: Ferry;
+        font-size: 50px;
+        font-family: Ferry;
+    }
+
+    .ofor img{
+        margin-left: 25%;
+    }
+
+    .registred{
+        position: absolute;
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 0px 20px 0px #00000026;
+        margin-left: 15%;
+        margin-top: 5%;
+        width: 30%;
+        height: 60%;
+    }
+
+    .upSection p{
+        font-family: Inter;
+        font-size: 20px;
+        margin-left: 20%;
+        width: 15%;
+        color: #029491;
+    }
+
+    .upSection span{
+        position: absolute;
+        font-family: Inter;
+        font-size: 20px;
+        margin-left: 60%;
+        margin-top: -6%;
+        color: #C7C7C7;
+    }
+
+    .e1 {
+        display: block;
+        width: 30%;
+        height: 2px;
+        margin-left: 9%;
+        margin-top: -2%;
+        background-color: #029491;
+    }
+
+    .e2{
+        display: block;
+        width: 40%;
+        height: 2px;
+        margin-left: 54%;
+        background-color: #C7C7C7;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        margin-left: 4%;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 3%;;
+        opacity: 0.7;
+        font-size: 20px;
+        margin-top: 5%;
+        font-family: Inter;
+        color: #949494;
+    }
+
+    input {
+        width: 90%;
+        padding: 8px;
+        box-sizing: border-box;
+        opacity: 0.7;
+        border-radius: 5px;
+        border: 1px solid #C7C7C7;
+        height: 5vh;
+    }
+
+    button {
+        width: 88%;
+        padding: 10px;
+        font-size: 22px;
+        margin-left: 23px;
+        margin-top: 2%;
+        height: 5vh;
+        background-color: #5970FF;
+        opacity: 0.7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .regA{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 2%;
+        display: block;
+    }
+
+    .regA a{
+        font-family: Inter;
+        font-size: 16px;
+        color: #5970FF;
+    }
+
+    .enterIn {
+        margin-left: 16px;
+        margin-top: 10%;
+    }
+
+    .enterIn p{
+        font-size: 18px;
+        color: #949494;
+    }
+
+    .enterIn img{
+        width: 500px;
+    }
+
+    .footer {
+        background: #029491;
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .footer img{
+        margin-left: 67px;
+        margin-top: 1%;
+    }
+
+    .dopInfo {
+        margin-left: 87%;
+        margin-top: -8%;
+        color: white;
+        font-family: inter;
+        font-size: 14px;
+        text-align: right;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:720px){
+    .nav{
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .reg{
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .burger{
+        position: absolute;
+        margin-left: 85%;
+        margin-top: -12%;
+    }
+
+    .ofor {
+        display: inline-block;
+        width: 100%;
+        margin-left: 14px;
+        margin-top: 5%;
+    }
+
+    .ofor p{
+        font-weight: 900;
+        font-family: Ferry;
+        font-size: 30px;
+    }
+
+    .ofor img{
+        position: absolute;
+        display: none;
+    }    
+
+    .zamok {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 35%;
+    }
+
+    .registred{
+        position: absolute;
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 0px 20px 0px #00000026;
+        margin-left: 4px;
+        margin-top: 20%;
+        width: 95%;
+        height: 65%;
+    }
+
+    .upSection p{
+        font-family: Inter;
+        font-size: 20px;
+        margin-left: 20%;
+        width: 15%;
+        color: #029491;
+    }
+
+    .upSection span{
+        position: absolute;
+        font-family: Inter;
+        font-size: 20px;
+        margin-left: 60%;
+        margin-top: -6%;
+        color: #C7C7C7;
+    }
+
+    .e1 {
+        display: block;
+        width: 30%;
+        height: 2px;
+        margin-left: 9%;
+        margin-top: -2%;
+        background-color: #029491;
+    }
+
+    .e2{
+        display: block;
+        width: 40%;
+        height: 2px;
+        margin-left: 54%;
+        background-color: #C7C7C7;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        margin-left: 4%;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 3%;;
+        opacity: 0.7;
+        font-size: 20px;
+        margin-top: 5%;
+        font-family: Inter;
+        color: #949494;
+    }
+
+    input {
+        width: 90%;
+        padding: 8px;
+        box-sizing: border-box;
+        opacity: 0.7;
+        border-radius: 5px;
+        border: 1px solid #C7C7C7;
+        height: 5vh;
+    }
+
+    button {
+        width: 88%;
+        padding: 10px;
+        font-size: 22px;
+        margin-left: 23px;
+        margin-top: 2%;
+        height: 5vh;
+        background-color: #5970FF;
+        opacity: 0.7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .regA{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 2%;
+        display: block;
+    }
+
+    .regA a{
+        font-family: Inter;
+        font-size: 16px;
+        color: #5970FF;
+    }
+
+    .enterIn {
+        margin-left: 16px;
+        margin-top: 10%;
+    }
+
+    .enterIn p{
+        font-size: 18px;
+        color: #949494;
+    }
+
+    .enterIn img{
+        width: 480px;
+    }
+    
+    .footer {
+        background: #029491;
+        display: inline-block;
+        width: 100%;
+        margin-top: 130%;
+    }
+
+    .footer img{
+        margin-left: 14px;
+        margin-top: 1%;
+    }
+
+    .dopInfo {
+        margin-left: 20%;
+        margin-top: -25%;
+        color: white;
+        font-family: inter;
+        font-size: 14px;
+        text-align: right;
+        width: 50%;
+    }
+}
